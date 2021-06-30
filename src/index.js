@@ -6,6 +6,8 @@ import { menuPage } from './menu';
 // Module for NavBar
 const nav = (function () {
     
+    const items = document.querySelectorAll('li');
+
     //Create Navbar
     const navbar = document.createElement('div');
     navbar.classList.add('nav')
